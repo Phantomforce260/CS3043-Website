@@ -2,12 +2,11 @@
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 import './App.css'
+import { Router } from './router/routing.tsx';
 
 function App() {
     return (
-        <>
-            <div className="header">The Use of Technology In Spider-Man: Across the Spider-Verse</div>
-        </>
+        <Router/>
     )
 }
 
