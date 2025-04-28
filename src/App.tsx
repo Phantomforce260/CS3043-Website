@@ -1,13 +1,17 @@
-//import { useState } from 'react'
-//import reactLogo from './assets/react.svg'
-//import viteLogo from '/vite.svg'
 import './App.css'
-import { Router } from './router/routing.tsx';
+import { Hero } from "./components/hero"
+import { TechList } from './components/techList';
+// import { Router } from './router/routing.tsx';
 
 function App() {
     return (
-        <Router/>
-    )
+        <div>
+            <div className='background'></div>
+            <title>Move Analysis - SM: ATSV</title>
+            <Hero />
+            <TechList />
+        </div>
+    );
 }
 
 export default App
