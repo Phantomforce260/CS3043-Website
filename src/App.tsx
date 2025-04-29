@@ -1,6 +1,8 @@
 import './App.css'
 import { Hero } from "./components/hero"
+import { MovieMakers } from './components/movieMakers';
 import { TechList } from './components/techList';
+import { TimeLine } from './components/timeline';
 // import { Router } from './router/routing.tsx';
 
 function App() {
@@ -10,6 +12,8 @@ function App() {
             <title>Move Analysis - SM: ATSV</title>
             <Hero />
             <TechList />
+            <TimeLine />
+            <MovieMakers />
         </div>
     );
 }

@@ -25,6 +25,13 @@ h2 {
     font-family: adamwarrenpro;
 }
 
+p {
+    font-family: montserrat;
+    font-size: 1vw;
+    line-height: 1.5;
+    margin: 2vw;
+}
+
 main, section {
     text-align: center;
 
@@ -33,9 +40,18 @@ main, section {
     align-items: center;
 }
 
-.names { margin-bottom: 30%; }
+main { margin-bottom: 12vw; }
 
-.header { font-size: 2vw; }
+section {
+    margin-bottom: 6vw;
+    position: relative;
+}
+
+.tech {
+    display: flex;
+    flex-direction: row;
+    margin: 2vw;
+}
 
 /* Comic Text Borders taken from https://codepen.io/borntofrappe/pen/GeXMgm -------------------------------------------------------------------------------------------- */
 
@@ -91,4 +107,105 @@ main, section {
     background: url('data:image/svg+xml;utf8,<svg width="100" height="100" transform="rotate(25)" opacity="0.3" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g  fill="%23000000"><circle cx="25" cy="25" r="12.5"/><circle cx="75" cy="75" r="12.5"/><circle cx="75" cy="25" r="12.5"/><circle cx="25" cy="75" r="12.5"/></g></svg>'), 
     #e23620;
     background-size: 12px, 100%;
+}
+
+.bubble.pink {
+    background: url('data:image/svg+xml;utf8,<svg width="100" height="100" transform="rotate(25)" opacity="0.3" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g  fill="%23000000"><circle cx="25" cy="25" r="12.5"/><circle cx="75" cy="75" r="12.5"/><circle cx="75" cy="25" r="12.5"/><circle cx="25" cy="75" r="12.5"/></g></svg>'), 
+    #fd09bc;
+    background-size: 12px, 100%;
+}
+
+.bubble.green {
+    background: url('data:image/svg+xml;utf8,<svg width="100" height="100" transform="rotate(25)" opacity="0.3" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g  fill="%23000000"><circle cx="25" cy="25" r="12.5"/><circle cx="75" cy="75" r="12.5"/><circle cx="75" cy="25" r="12.5"/><circle cx="25" cy="75" r="12.5"/></g></svg>'), 
+    #69eb3a;
+    background-size: 12px, 100%;
+}
+
+/* Timeline from https://codepen.io/z-/pen/bwPBjY ------------------------------------------------------------------------------------------------ */
+
+.timeline-body {
+
+    min-height: 100vh;
+    margin: 10vw 0 0 0;
+    font-family: adamwarrenpro;
+
+    &:before {
+        content: '';
+        position: absolute;
+
+        top: 16vw;
+        left:50%;
+        bottom:0px;
+
+        transform:translateX(-50%);
+        width:4px;
+        background-color: white;
+    }
+
+    .entries {
+        width:calc(100% - 80px);
+        max-width:800px;
+        margin:auto;
+        position: relative;
+        left: -5px;
+
+        .entry {
+            width:calc(50% - 80px);
+            float:left; 
+            padding:20px;
+            clear:both;
+            text-align:right;
+            &:not(:first-child) {
+                margin-top:-60px;
+            }
+
+            .title {
+                font-size:32px;
+                margin-bottom:12px;
+                position: relative;
+                color:#fff;
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    width:8px;
+                    height:8px;
+                    border:4px solid #ffffff;
+                    background-color:#1D1D1D;
+                    border-radius:100%;
+                    top:50%;
+                    transform:translateY(-50%);
+                    right:-73px;
+                    z-index:1000;
+                }
+
+                &.big:before {
+                    width:24px;
+                    height:24px;
+                    transform:translate(8px,-50%);
+                }
+            }
+
+            .body {
+                color:#aaa;
+                p {
+                    line-height:1.4em;
+                }
+            }
+
+            &:nth-child(2n) {
+                text-align:left;
+                float:right;
+                .title {
+                    &:before {
+                        left:-63px;
+                    }
+
+                    &.big:before {
+                      transform:translate(-8px,-50%);
+                    }
+                }
+            }
+        }
+    }
 }
