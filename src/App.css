@@ -121,6 +121,17 @@ section {
     background-size: 12px, 100%;
 }
 
+.bubble.blue {
+    background: url('data:image/svg+xml;utf8,<svg width="100" height="100" transform="rotate(25)" opacity="0.3" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g  fill="%23000000"><circle cx="25" cy="25" r="12.5"/><circle cx="75" cy="75" r="12.5"/><circle cx="75" cy="25" r="12.5"/><circle cx="25" cy="75" r="12.5"/></g></svg>'), 
+    #5bcab1;
+    background-size: 12px, 100%;
+}
+
+.bubble.dark-blue {
+    background: url('data:image/svg+xml;utf8,<svg width="100" height="100" transform="rotate(25)" opacity="0.3" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g  fill="%23000000"><circle cx="25" cy="25" r="12.5"/><circle cx="75" cy="75" r="12.5"/><circle cx="75" cy="25" r="12.5"/><circle cx="25" cy="75" r="12.5"/></g></svg>'), 
+    #0105b4;
+    background-size: 12px, 100%;
+}
 /* Timeline from https://codepen.io/z-/pen/bwPBjY ------------------------------------------------------------------------------------------------ */
 
 .timeline-body {
@@ -128,6 +139,7 @@ section {
     min-height: 100vh;
     margin: 10vw 0 0 0;
     font-family: adamwarrenpro;
+    min-width: 50vw;
 
     &:before {
         content: '';

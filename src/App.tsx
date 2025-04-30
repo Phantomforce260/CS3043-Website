@@ -1,4 +1,6 @@
 import './App.css'
+import { Chapters } from './components/chapters';
+import { GroupWork } from './components/groupWork';
 import { Hero } from "./components/hero"
 import { MovieMakers } from './components/movieMakers';
 import { TechList } from './components/techList';
@@ -13,7 +15,9 @@ function App() {
             <Hero />
             <TechList />
             <TimeLine />
+            <Chapters />
             <MovieMakers />
+            <GroupWork />
         </div>
     );
 }

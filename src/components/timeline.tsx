@@ -56,13 +56,6 @@ export function TimeLine() {
                       </div>
                   </div>
 
-                  <div className="entry">
-                    <h3 className="title">Spot triggers colliders across the multiverse to become more powerful</h3>
-                    <div className="body">
-                      <p>Qui facere eos aut suscipit doloremque quos...</p>
-                    </div>
-                  </div>
-
                 </div>
             </span>
 
