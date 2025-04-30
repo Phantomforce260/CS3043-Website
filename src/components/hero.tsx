@@ -1,7 +1,7 @@
 export function Hero() {
     return (
         <main>
-            <h2>CS 3043: Social Implications of Information Processing</h2>
+            <h2 style={{margin: "100px"}}>CS 3043: Social Implications of Information Processing</h2>
 
             <h1 className="bubble yellow">The Use Of Technology In Spider-Man: Across the Spider-Verse</h1>
 
