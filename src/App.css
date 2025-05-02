@@ -53,6 +53,11 @@ section {
     margin: 2vw;
 }
 
+.bubble-text {
+    font-size: 12px;
+    text-align: left;
+}
+
 
 
 /* Comic Text Borders taken from https://codepen.io/borntofrappe/pen/GeXMgm -------------------------------------------------------------------------------------------- */
