@@ -1,7 +1,7 @@
 export function TimeLine() {
     return(
         <section>
-            <h1 className="bubble pink">Plot Timeline of Computing Related Events</h1>
+            <h1 className="card-scale bubble pink">Plot Timeline of Computing Related Events</h1>
 
             <span className="timeline-body">
                 <div className="entries">

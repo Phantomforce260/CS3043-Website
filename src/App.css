@@ -9,6 +9,14 @@
     z-index: -2;
 }
 
+.watchImage {
+    background: url(/watch.jpg) no-repeat center center;
+    background-size: cover;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+}
+
 html { padding: 6vw; }
 
 h2, h3, p { color: white; }
@@ -58,8 +66,12 @@ section {
     margin: 2vw;
 }
 
+.card-scale:hover {
+    scale: 1.1;
+}
+
 .bubble-text {
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
 }
 
@@ -79,6 +91,8 @@ section {
     border: 0.4rem solid white;
     /* position relative for the :before pseudo element */
     position: relative;
+    transition: all 0.2s linear;
+    transform-style: preserve-3d;
 }
   
 /* for the highlight container change the solid backgorund to a yellow-ish hue */
@@ -105,7 +119,7 @@ section {
         #000000;
     background-size: 12px, 100%;
     border: 0.4rem solid white;
-    z-index: -1;
+    transform: translateZ(-10px);
 }
 
 .bubble.yellow {

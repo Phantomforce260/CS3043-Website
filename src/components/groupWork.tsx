@@ -1,7 +1,7 @@
 export function GroupWork() {
     return(
         <section>
-            <h1 className="bubble blue">Our Group Work</h1>
+            <h1 className="card-scale bubble blue">Our Group Work</h1>
 
             <span className="timeline-body">
                 <div className="entries">
