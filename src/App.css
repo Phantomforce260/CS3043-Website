@@ -75,6 +75,13 @@ section {
     text-align: left;
 }
 
+.label {
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+    margin: 3px;
+}
+
 
 /* Comic Text Borders taken from https://codepen.io/borntofrappe/pen/GeXMgm -------------------------------------------------------------------------------------------- */
 

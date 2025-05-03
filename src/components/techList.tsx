@@ -1,4 +1,5 @@
-import {Image, Flex} from '@mantine/core'
+import {Image, Flex, Menu} from '@mantine/core'
+import Label = Menu.Label;
 
 export function TechList() {
     return(
@@ -12,6 +13,7 @@ export function TechList() {
                     <p className={"bubble-text"}>The collider, created in the previous film and shown as the main plot driver due to its destructive capabilities, is shown as an attempt at travelling between universes. While the specific science is not elaborated on, it creates dark matter as a means to opening a path between universes. This is verging real, since there are particle colliders such as the CERN collider. What is real is very new in terms of testing, since the CERN collider opened in 2008 and is still being used to run experiments on atomic behavior.</p>
                 </div>
                 <Image src={'/CS3043-Website/watch.jpg'} radius='lg' alt={'watch image'} width="100%" height="100%"/>
+                <p className={'label'}>The Multiverse Watch</p>
             </div>
 
             <div className="card-scale bubble red" style={{width: '45%', height: '45%'}}>
@@ -41,7 +43,8 @@ export function TechList() {
                     <p className={"bubble-text"}>In the movie, there is a large device that can scan the DNA of the spider-people to send them back to their respective universes, which utilized the scanning of the eye to help identify who it was. This played a pivotal role at the end of the story when Miles Morales was sent to the wrong universe, as the machine analyzed the spider that bit him which came from another dimension, sending him there instead of his own world.</p>
                     <p className={"bubble-text"}>Using eyes for identification is a practice that dates to the 1900s, and commercial products for eye recognition software were available in the 1990s. The connection between scanning the eye and how that translates to DNA is unclear, and that aspect is likely fictional.</p>
                     <p className={"bubble-text"}>The machine’s mistake in sending Miles to the wrong universe could fall under the topic of computer reliability. The machine’s purpose is to analyze DNA, and in that regard, it appears to have a focus on the spider DNA that is inside the spider-people when they are bitten. This system has a fundamental flaw: it only has one system to detect the correct universe for each person. With the ability of different people and things being able to cross through different universes like in the first movie (the radioactive spider that bit Miles was due to an experiment with Kingpin’s collider), it can be argued the DNA analyzer needs a greater number of features it analyzes to ensure it sends each person to the correct universe.</p>
-                    <img src={'background.jpg'} alt={'image'}/>
+                    <Image src={'/CS3043-Website/DNAMachine.png'} radius='lg' alt={'big spider machine'} width="100%" height="100%"/>
+                    <p className={'label'}>DNA Analyzer, "send-back" machine</p>
                 </div>
             </div>
             </Flex>

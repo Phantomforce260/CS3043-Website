@@ -75,6 +75,33 @@ export function Chapters() {
                         </Flex>
                     </Flex>
                 </Collapse>
+                <Collapse in={chapter == 'ch7'} transitionDuration={300} transitionTimingFunction={'linear'}>
+                    <h2>Chapter 7: Computer and Network Security</h2>
+                    <Flex direction={'row'}>
+                        <Flex direction="column" align={'flex-start'}>
+                            <p className={'bubble-text'}>The topic of computer and network security plays a role in the film when Miles Morales activates the DNA analyzer machine using his invisibility powers to avoid being caught by Lyla and Spider-Byte. In the film, after managing to create separation from Miguel and the other spider-people trying to stop him, Miles goes into the control panel for the DNA analysis machine and starts it all on his own. This falls under security in how easily he was able to start up such a high-technology device on his own with no background at all. The lack of any identification system or key needed to activate the machine is a major misstep in terms of security. When comparing to the United States, government jobs have different levels of security clearances, ranging on different levels of what confidential information or jobs people have access to [6]. When applying this logic to the movie, there does not seem to be any kind of required clearance to be able to use the machine, given how Miles was able to easily turn it on and teleport to another universe. Had a safety net been built in, Miguel would have likely been able to prevent Miles’ escape from Nueva York. The issue with this lack of security also is notable in how Nueva York is an incredibly large city where all the spider-people can access; having such low security for such an important technology in a heavy-populated area is incredibly unsafe if someone used it for nefarious purposes. </p>
+                        </Flex>
+                    </Flex>
+                </Collapse>
+                <Collapse in={chapter == 'ch8'} transitionDuration={300} transitionTimingFunction={'linear'}>
+                    <h2>Chapter 8: Computer Reliability</h2>
+                    <Flex direction={'row'}>
+                        <Flex direction="column" align={'flex-start'}>
+                            <p className={'bubble-text'}>Computer reliability plays a role in the movie near the end when the multiversal teleportation machine sends Miles to the incorrect universe. The teleportation system was utilized in the movie to teleport anomalies back to their universes, as well as the spider-people given it’s specific tracking for the spider DNA when it is activated. This system has a fundamental flaw in how it appears to only have varied systems to detect the correct universes for those who are being analyzed. </p>
+                            <p className={'bubble-text'}>To back up the claim that there must be two different DNA identification systems used, it is important to note how Miles was sent to the incorrect universe. Because Miles’ spider which bit him was transported from another universe, the analysis believed that the correct universe was the one which the spider came from, instead of the universe Miles is from. There must be another form of identification system put in place, since the anomalies that would be transported would not have this spider DNA; The spider people are identified by the DNA of the spider that bit them, while the anomalies seem to be identified by some other method, that is assumed to be reliable.  </p>
+                            <p className={'bubble-text'}>A reasonable claim can be made this two-factor system differentiating between the spider-people and non-spider-people is pointless; if the machine is able to detect what universes each individual under analysis belongs to, what is the purpose of the Spider DNA analysis? If Miles had been analyzed with the same process as the non-spider-people, it is not unreasonable to think he would have been sent to his correct universe, preventing a preventable error. </p>
+                            <p className={'bubble-text'}></p>
+                        </Flex>
+                    </Flex>
+                </Collapse>
+                <Collapse in={chapter == 'ch10'} transitionDuration={300} transitionTimingFunction={'linear'}>
+                    <h2>Chapter 10: Automation and Globalization</h2>
+                    <Flex direction={'row'}>
+                        <Flex direction="column" align={'flex-start'}>
+                            <p className={'bubble-text'}>Globalization plays a minor, but notable, role in the movie. The book describes globalization as something that results in greater services, goods, and capital around the world [4]. A parallel can be made between this idea of globalization and the mission that Miguel O’Hara and his team are trying to achieve. The main priority of Miguel’s team is to go to different universes and prevent collapses from anomalies from other worlds. A parallel could be made that Nueva York and this team are similar to globalization in some regard, as the spider-people from each different universe are able to collaborate with one another for the betterment of each one’s world. The topic of automation does not play a large role in the movie. While one of the characters, Lyla, is meant to be an artificial intelligence hologram, there is not much else relating to the artificial intelligence besides that and it does not play an integral role in the story or narrative. </p>
+                        </Flex>
+                    </Flex>
+                </Collapse>
             </div>
             </Box>
 
