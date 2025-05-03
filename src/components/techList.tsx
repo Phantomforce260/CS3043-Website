@@ -1,15 +1,17 @@
+import { Flex, Image } from '@mantine/core'
+
 export function TechList() {
     return(
         <section>
             <h1 className="bubble red">The technologies we found in the film</h1>
 
-            <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
+            <Flex direction="row" justify="space-between">
             <div className="bubble red" style={{width: '45%', height: '45%'}}>
                 <div className="text">
                     <h2>Multiverse Collider</h2>
                     <p className={"bubble-text"}>The collider, created in the previous film and shown as the main plot driver due to its destructive capabilities, is shown as an attempt at travelling between universes. While the specific science is not elaborated on, it creates dark matter as a means to opening a path between universes. This is verging real, since there are particle colliders such as the CERN collider. What is real is very new in terms of testing, since the CERN collider opened in 2008 and is still being used to run experiments on atomic behavior.</p>
                 </div>
-                <img src='/watch.jpg' alt={'image'} width={"50%"} height={"50%"}/>
+                <Image src='/watch.jpg' radius='md' alt={'image'} width={"50%"} height={"50%"}/>
             </div>
 
             <div className="bubble red" style={{width: '45%', height: '45%'}}>
@@ -20,9 +22,9 @@ export function TechList() {
                     <p className={"bubble-text"}>The main course topics this falls under are Communication, Security, and Privacy and Government. Its primary purpose is to help the users travel through the multiverse to protect the safety of different universes and get rid of anomalies between universes. It helps the team of Spider people to protect regular citizens. This also creates a grey area in government structure formed by the spider people but not clearly shown as following any strict rules. The group of Spider people follow one main leader, Miguel O’Hara, and listen to his experience and use his technology as a guide on how to protect people throughout the multiverse. The watch is used as a tool to do so and help the different Spider people communicate, providing a massive asset to their operations.</p>
                 </div>
             </div>
-            </div>
+            </Flex>
 
-            <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
+            <Flex direction="row" justify="space-between">
             <div className="bubble red" style={{width: '45%', height: '45%'}}>
                 <div className="text">
                     <h2>Surveillance Computers and Prediction Algorithm</h2>
@@ -42,7 +44,7 @@ export function TechList() {
                     <img src={'background.jpg'} alt={'image'}/>
                 </div>
             </div>
-            </div>
+            </Flex>
         </section>
     );
 }

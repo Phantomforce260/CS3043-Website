@@ -11,7 +11,7 @@
 
 html { padding: 6vw; }
 
-h2, p { color: white; }
+h2, h3, p { color: white; }
 
 h1 {
     font-size: 3.2vw;
@@ -22,6 +22,11 @@ h1 {
 h2 {
     margin: 3% 0;
     font-size: 2vw;
+    font-family: adamwarrenpro;
+}
+
+h3 {
+    font-size: 1.5vw;
     font-family: adamwarrenpro;
 }
 
@@ -57,7 +62,6 @@ section {
     font-size: 12px;
     text-align: left;
 }
-
 
 
 /* Comic Text Borders taken from https://codepen.io/borntofrappe/pen/GeXMgm -------------------------------------------------------------------------------------------- */
