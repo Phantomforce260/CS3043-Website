@@ -9,7 +9,7 @@ export function TechList() {
                     <h2>Multiverse Collider</h2>
                     <p className={"bubble-text"}>The collider, created in the previous film and shown as the main plot driver due to its destructive capabilities, is shown as an attempt at travelling between universes. While the specific science is not elaborated on, it creates dark matter as a means to opening a path between universes. This is verging real, since there are particle colliders such as the CERN collider. What is real is very new in terms of testing, since the CERN collider opened in 2008 and is still being used to run experiments on atomic behavior.</p>
                 </div>
-                <img src={'background.jpg'} alt={'image'}/>
+                <img src='/watch.png' alt={'image'} width={"50%"} height={"50%"}/>
             </div>
 
             <div className="bubble red" style={{width: '45%', height: '45%'}}>
