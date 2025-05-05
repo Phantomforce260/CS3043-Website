@@ -26,7 +26,7 @@ function App() {
     return (
         <div>
             <div className='background'></div>
-            <title>Move Analysis - SM: ATSV</title>
+            <title>Movie Analysis - SM: ATSV</title>
             <div style={{
                 position: "fixed",
                 top: "10px",
