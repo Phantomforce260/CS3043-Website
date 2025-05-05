@@ -33,34 +33,40 @@ function App() {
                 zIndex: 10,
                 display: "flex",
             }}>
-                <ComicButton displayText={"Home"} clickFunction={() => scrollToSection(heroRef)} />
-                <ComicButton displayText={"Tech List"} clickFunction={() => scrollToSection(techListRef)} />
-                <ComicButton displayText={"Timeline"} clickFunction={() => scrollToSection(timelineRef)} />
-                <ComicButton displayText={"Chapters"} clickFunction={() => scrollToSection(chaptersRef)} />
-                <ComicButton displayText={"Movie Makers"} clickFunction={() => scrollToSection(movieMakersRef)} />
-                <ComicButton displayText={"Group Work"} clickFunction={() => scrollToSection(groupWorkRef)} />
-                <ComicButton displayText={"References"} clickFunction={() => scrollToSection(referencesRef)} />
+                <ComicButton displayText={"Home"} clickFunction={() => scrollToSection(heroRef)}/>
+                <ComicButton displayText={"Tech List"} clickFunction={() => scrollToSection(techListRef)}/>
+                <ComicButton displayText={"Timeline"} clickFunction={() => scrollToSection(timelineRef)}/>
+                <ComicButton displayText={"Chapters"} clickFunction={() => scrollToSection(chaptersRef)}/>
+                <ComicButton displayText={"Movie Makers"} clickFunction={() => scrollToSection(movieMakersRef)}/>
+                <ComicButton displayText={"Group Work"} clickFunction={() => scrollToSection(groupWorkRef)}/>
+                <ComicButton displayText={"References"} clickFunction={() => scrollToSection(referencesRef)}/>
             </div>
             <div ref={heroRef}>
-                <Hero />
+                <Hero/>
+            </div>
+            <div>
+            <iframe className={"main"} src="https://1drv.ms/p/c/1dd6cff4559d638e/IQTb7e5gp80oTLMnrr2F-vqrAQCgh3yXTAZyjTz-FZVDWBY?wdAr=1.7777777777777777" width="1280px" height="720px" frameBorder="0">This is an embedded <a target="_blank"
+                                                                                                                                                                                                           href="https://office.com">Microsoft
+                Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.
+            </iframe>
             </div>
             <div ref={techListRef}>
-                <TechList />
+                <TechList/>
             </div>
             <div ref={timelineRef}>
-                <TimeLine />
+                <TimeLine/>
             </div>
             <div ref={chaptersRef}>
-            <Chapters />
+                <Chapters/>
             </div>
             <div ref={movieMakersRef}>
-            <MovieMakers />
+                <MovieMakers/>
             </div>
             <div ref={groupWorkRef}>
-            <GroupWork />
+                <GroupWork/>
             </div>
             <div ref={referencesRef}>
-                <References />
+                <References/>
             </div>
         </div>
     );

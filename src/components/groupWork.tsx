@@ -44,15 +44,8 @@ export function GroupWork() {
                 <Timeline.Item>
                     <h3 className="title">5/5/2025</h3>
                     <div className="body">
-                        <p>Finalize slideshow, discuss who is presenting on what topics</p>
+                        <p>Finalize slideshow and website, discuss who is presenting on what topics</p>
                     </div>
-                </Timeline.Item>
-
-                <Timeline.Item>
-                        <h3 className="title">Work In Progress</h3>
-                        <div className="body">
-                            <p>Website Content and Slideshow Finalized</p>
-                        </div>
                 </Timeline.Item>
 
                 <Timeline.Item>
