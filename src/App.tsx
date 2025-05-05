@@ -7,6 +7,7 @@ import { TechList } from './components/techList';
 import { TimeLine } from './components/timeline';
 import {useRef} from "react";
 import ComicButton from "./router/comicButton.tsx";
+import {References} from './components/references';
 // import { Router } from './router/routing.tsx';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     const chaptersRef = useRef(null);
     const movieMakersRef = useRef(null);
     const groupWorkRef = useRef(null);
+    const referencesRef = useRef(null);
 
     const scrollToSection = (section) => {
         section.current?.scrollIntoView({ behavior: 'smooth' });
@@ -38,6 +40,7 @@ function App() {
                 <ComicButton displayText={"Chapters"} clickFunction={() => scrollToSection(chaptersRef)} />
                 <ComicButton displayText={"Movie Makers"} clickFunction={() => scrollToSection(movieMakersRef)} />
                 <ComicButton displayText={"Group Work"} clickFunction={() => scrollToSection(groupWorkRef)} />
+                <ComicButton displayText={"References"} clickFunction={() => scrollToSection(referencesRef)} />
             </div>
             <div ref={heroRef}>
                 <Hero />
@@ -56,6 +59,9 @@ function App() {
             </div>
             <div ref={groupWorkRef}>
             <GroupWork />
+            </div>
+            <div ref={referencesRef}>
+                <References />
             </div>
         </div>
     );

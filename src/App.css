@@ -82,6 +82,11 @@ section {
     margin: 3px;
 }
 
+.referenceText {
+    color: black;
+    text-align: left;
+    font-weight: 1000;
+}
 
 /* Comic Text Borders taken from https://codepen.io/borntofrappe/pen/GeXMgm -------------------------------------------------------------------------------------------- */
 
