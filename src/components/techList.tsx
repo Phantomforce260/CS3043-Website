@@ -1,5 +1,4 @@
-import {Image, Flex, Menu} from '@mantine/core'
-import Label = Menu.Label;
+import {Image, Flex} from '@mantine/core'
 
 export function TechList() {
     return(

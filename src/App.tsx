@@ -8,7 +8,6 @@ import { TimeLine } from './components/timeline';
 import {useRef} from "react";
 import ComicButton from "./router/comicButton.tsx";
 import {References} from './components/references';
-// import { Router } from './router/routing.tsx';
 
 function App() {
     const heroRef = useRef(null);
@@ -19,7 +18,7 @@ function App() {
     const groupWorkRef = useRef(null);
     const referencesRef = useRef(null);
 
-    const scrollToSection = (section) => {
+    const scrollToSection = (section : any) => {
         section.current?.scrollIntoView({ behavior: 'smooth' });
     };
 

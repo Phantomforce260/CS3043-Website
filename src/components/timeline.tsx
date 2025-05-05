@@ -5,6 +5,8 @@ export function TimeLine() {
 
     const [active, setActive] = useState(0);
 
+    console.log(active);
+
     return(
         <section>
             <h1 className="bubble pink">Plot Timeline of Computing Related Events</h1>
