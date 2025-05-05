@@ -4,10 +4,10 @@ import Label = Menu.Label;
 export function TechList() {
     return(
         <section>
-            <h1 className="card-scale bubble red">The technologies we found in the film</h1>
+            <h1 className="bubble red">The technologies we found in the film</h1>
 
             <Flex direction="row" justify="space-between">
-            <div className="card-scale bubble red" style={{width: '45%', height: '45%'}}>
+            <div className="bubble red" style={{width: '45%', height: '45%'}}>
                 <div className="text">
                     <h2>Multiverse Collider</h2>
                     <p className={"bubble-text"}>The collider, created in the previous film and shown as the main plot driver due to its destructive capabilities, is shown as an attempt at travelling between universes. While the specific science is not elaborated on, it creates dark matter as a means to opening a path between universes. This is verging real, since there are particle colliders such as the CERN collider. What is real is very new in terms of testing, since the CERN collider opened in 2008 and is still being used to run experiments on atomic behavior.</p>
@@ -16,7 +16,7 @@ export function TechList() {
                 <p className={'label'}>The Multiverse Watch</p>
             </div>
 
-            <div className="card-scale bubble red" style={{width: '45%', height: '45%'}}>
+            <div className="bubble red" style={{width: '45%', height: '45%'}}>
                 <div className="text">
                     <h2>Multiverse Watch</h2>
                     <p className={"bubble-text"}>The watch is used to open gates and travel between different universes in the multiverse. It also acts as a stabilizer for people not in their original universe. The premise of a multiverse and traveling between them is a theoretical debate in the physics community, and the ability to open up gates and stabalizing people not in their intended universe is fictional. It has some smaller capabilities like acting as a communicator between multiverses and a way to access a main computer, referenced later in the film.</p>
@@ -27,7 +27,7 @@ export function TechList() {
             </Flex>
 
             <Flex direction="row" justify="space-between">
-            <div className="card-scale bubble red" style={{width: '45%', height: '45%'}}>
+            <div className="bubble red" style={{width: '45%', height: '45%'}}>
                 <div className="text">
                     <h2>Surveillance Computers and Prediction Algorithm</h2>
                     <p className={"bubble-text"}>In the movie, Miguel has access to some kind of computer system that is able to survey and connect to camera or other technologies across many different universes. This system’s priority is keeping track of different universes to ensure that no anomalies or invaders from other universes cross to other worlds. The idea of a computer system able to connect across different timelines is complete fiction, but the use of computers to connect to cameras to survey is very present in our modern world, an example being security cameras which have a similar purpose to what this multiversal computer system is using in the move.</p>
@@ -37,7 +37,7 @@ export function TechList() {
                 </div>
             </div>
 
-            <div className="card-scale bubble red" style={{width: '45%', height: '45%'}}>
+            <div className="bubble red" style={{width: '45%', height: '45%'}}>
                 <div className="text">
                     <h2>DNA Analyzer</h2>
                     <p className={"bubble-text"}>In the movie, there is a large device that can scan the DNA of the spider-people to send them back to their respective universes, which utilized the scanning of the eye to help identify who it was. This played a pivotal role at the end of the story when Miles Morales was sent to the wrong universe, as the machine analyzed the spider that bit him which came from another dimension, sending him there instead of his own world.</p>
