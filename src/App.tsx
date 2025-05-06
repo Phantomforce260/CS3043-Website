@@ -44,11 +44,10 @@ function App() {
             <div ref={heroRef}>
                 <Hero/>
             </div>
-            <div>
-            <iframe className={"main"} src="https://1drv.ms/p/c/1dd6cff4559d638e/IQTb7e5gp80oTLMnrr2F-vqrAQCgh3yXTAZyjTz-FZVDWBY?wdAr=1.7777777777777777" width="1280px" height="720px" frameBorder="0">This is an embedded <a target="_blank"
-                                                                                                                                                                                                           href="https://office.com">Microsoft
-                Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.
-            </iframe>
+            <div className="slideshow">
+                <iframe className={"main"} src="https://1drv.ms/p/c/1dd6cff4559d638e/IQTb7e5gp80oTLMnrr2F-vqrAQCgh3yXTAZyjTz-FZVDWBY?wdAr=1.7777777777777777" width="1280px" height="720px" frameBorder="0">
+                    This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.
+                </iframe>
             </div>
             <div ref={techListRef}>
                 <TechList/>
