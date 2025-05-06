@@ -17,12 +17,6 @@
     position: absolute;
 }
 
-.slideshow {
-    position: relative;
-    left: 14%;
-    margin-bottom: 8vw;
-}
-
 html { padding: 6vw; }
 
 h2, h3, p { color: white; }
@@ -59,7 +53,7 @@ main, section {
     align-items: center;
 }
 
-main { margin-bottom: 8vw; }
+main { margin-bottom: 10vw; }
 
 section {
     margin-bottom: 6vw;
